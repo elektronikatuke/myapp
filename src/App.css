@@ -96,6 +96,12 @@
   margin: 10px;
 }
 
+.opa{
+  background-color: #00b9e1;
+}
+.true{
+  background-color: green;
+}
 .answer-section button{
   margin: 10px 20px 10px 20px;
   border-radius: 10px;
