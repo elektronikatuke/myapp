@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Week1pdf(){
 
-  return <Pdf_view document="/myapp#/Prednasky_1_diody.pdf"/>
+  return <Pdf_view document="/Prednasky_1_diody.pdf"/>
 
 }
 
