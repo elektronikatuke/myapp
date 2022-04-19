@@ -1,0 +1,17 @@
+div.qtn {
+    font-size: 16px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  
+  div.frac {
+    float: left;
+    text-align: center;
+  }
+  div.numer {
+    border-bottom: 1px solid black;
+  }
+  div.denom {
+    border-top: 1px solid black;
+  }
+

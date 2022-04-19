@@ -1,0 +1,54 @@
+#path3_1{
+    stroke-dasharray: 415;
+    stroke-dashoffset: 415;
+}
+#path3_1.like_1 {
+    animation: 5s ease-in forwards like_1;
+  }
+
+@keyframes like_1 {
+  0% {
+    stroke-dashoffset: 415;    
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+
+#path3_2{
+  stroke-dasharray: 402;
+  stroke-dashoffset: 402;
+}
+#path3_2.like_2 {
+    animation: 5s ease-in forwards like_2;
+  }
+
+@keyframes like_2 {
+  0% {
+    stroke-dashoffset: 402;
+  }
+100% {
+  stroke-dashoffset: 0;
+  }
+}
+
+
+#path3_3{
+  stroke-dasharray: 451;
+  stroke-dashoffset: 451;
+}
+#path3_3.like_3 {
+    animation: 5s ease-in forwards like_3;
+    
+  }
+
+@keyframes like_3 {
+  0% {
+    stroke-dashoffset: 451;
+  }
+100% {
+  stroke-dashoffset: 0;
+  }
+}

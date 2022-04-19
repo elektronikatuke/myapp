@@ -1,0 +1,50 @@
+.container_intro{
+    width: 200px;
+    height: 200px;
+    background-color: #00B9E1;
+    transition: 400ms;
+    box-shadow: 5px 10px 18px #888888;
+  }
+  
+  .container_intro *{
+    opacity: 0%;
+  }
+  
+  .container_intro p {
+    opacity: 100%;
+    font-size: larger;
+    position: absolute;
+    transition: 400ms;
+    font-weight: bold;
+  }
+  
+  .container_intro:hover *{
+    opacity: 100%;
+    transition: 400ms;
+  }
+  
+  .container_intro:hover{
+    border-radius: 10%;
+    transition: 400ms;
+    background-color: rgb(235, 235, 235);
+    transform: scale(1.4, 1.4);
+    border: 1px solid black;
+  }
+  
+  .container_intro:hover p {
+    opacity: 0%;
+    transition: 400ms;
+    z-index: -1;
+  }
+  
+  .container_intro img{
+    width: 99%;
+    max-height: 200px;
+  }
+
+  .container_intro a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  

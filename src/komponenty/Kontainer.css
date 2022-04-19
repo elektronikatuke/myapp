@@ -1,0 +1,39 @@
+.container {
+    width: 250px;
+    height: 250px;
+    background-color: #00B9E1;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 25%;
+    transition: 500ms;
+    box-shadow: 5px 10px 18px #888888;
+  }
+  .container:hover{
+    background-color: rgb(205, 207, 202);
+    border-radius: 35%;
+    transition: 500ms;
+    transform: scale(1.2, 1.2);
+  }
+  .container:hover a{
+    color: black;
+    opacity: 0%;
+  }
+  .container a {
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    opacity: 100%;
+    position: fixed;
+  }
+  .container p{
+    opacity: 0%;
+  }
+  .container:hover p {
+    color: black;
+    opacity: 100%;
+    font-weight: bold;
+  }

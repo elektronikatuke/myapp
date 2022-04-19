@@ -1,0 +1,59 @@
+#week_3_dioda{
+    animation: mymove 4s;
+    animation-iteration-count: infinite;    
+}
+
+@keyframes mymove {
+   0% {
+    stroke: black;
+    stroke-width: 2px;
+   }
+
+   50% {
+    stroke: white;
+    filter: drop-shadow(5px 6px 4px rgb(0 0 0 / 1));
+    stroke-width: 4px;
+    }
+
+    100% {
+        stroke: black;
+        stroke-width: 2px;
+       }
+
+
+}
+
+#path4_1{
+    stroke-dasharray: 310;
+    stroke-dashoffset: 310;
+}
+#path4_1.path4_1 {
+    animation: 5s ease-in forwards path4_1;
+  }
+
+@keyframes path4_1 {
+  0% {
+    stroke-dashoffset: 310;    
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+#path4_2{
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+}
+#path4_2.path4_2 {
+    animation: 5s ease-in forwards path4_2;
+  }
+
+@keyframes path4_2 {
+  0% {
+    stroke-dashoffset: 400;    
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
