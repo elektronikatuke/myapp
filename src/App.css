@@ -108,6 +108,12 @@
   margin: auto;
 }
 
+.question-section{
+  background: url('images/pozadie_obvody_1.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .question-section .flex_left{
   display: grid;
   justify-content: space-around;

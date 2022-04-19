@@ -17,13 +17,13 @@ export const SidebarData = [
   },
   {
     title: 'week_2',
-    path: '/week_2',
+    path: '/week/week_2/intro_week_2',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },
   {
     title: 'week_3',
-    path: '/week_3',
+    path: '/week/week_3/intro_week_3',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },

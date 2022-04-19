@@ -9,8 +9,10 @@ import { useHistory } from 'react-router-dom';
 
 
 
+
 const Logout = () =>{
   sessionStorage.clear('Password');
+  window.location.reload(false);
 }
 
 function Navbar() {
@@ -29,7 +31,7 @@ function Navbar() {
           </Link>
           <div className='menu_flex'>
             <div className='Logout'>
-              <Link to='/' onClick={Logout}>Logout</Link>
+              <Link to="/" onClick={Logout}>Logout</Link>
             </div>
             <div className="Logout">
             <p onClick={() => history.goBack()}>Naspäť</p>
