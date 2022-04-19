@@ -4,7 +4,7 @@ import Pdf_view from '../../komponenty/Pdf_view';
 
 function Week1pdf(){
 
-  return <Pdf_view document="/Prednasky_1_diody.pdf" />
+  return <Pdf_view document="../../public/Prednasky_1_diody.pdf" />
 }
 
 export default Week1pdf; 
