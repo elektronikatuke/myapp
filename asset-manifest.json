@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myapp/static/css/main.449ab07d.css",
-    "main.js": "/myapp/static/js/main.5658c4b3.js",
+    "main.css": "/myapp/static/css/main.8cf1849d.css",
+    "main.js": "/myapp/static/js/main.91ebe38b.js",
     "static/js/787.28cb0dcd.chunk.js": "/myapp/static/js/787.28cb0dcd.chunk.js",
     "pdf.worker.js": "/myapp/e7e915313973ba1d49f9bb2a1998626e.js",
     "static/media/pozadie_obvody_1.png": "/myapp/static/media/pozadie_obvody_1.0caeab71bada0c4205fc.png",
@@ -13,12 +13,12 @@
     "static/media/Graf_ex_2.svg": "/myapp/static/media/Graf_ex_2.376ace1b6fdc731926c1c407c1f14dcc.svg",
     "static/media/Grafex_6.svg": "/myapp/static/media/Grafex_6.bd50427631f20375db073ae38b2ecd9c.svg",
     "index.html": "/myapp/index.html",
-    "main.449ab07d.css.map": "/myapp/static/css/main.449ab07d.css.map",
-    "main.5658c4b3.js.map": "/myapp/static/js/main.5658c4b3.js.map",
+    "main.8cf1849d.css.map": "/myapp/static/css/main.8cf1849d.css.map",
+    "main.91ebe38b.js.map": "/myapp/static/js/main.91ebe38b.js.map",
     "787.28cb0dcd.chunk.js.map": "/myapp/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.449ab07d.css",
-    "static/js/main.5658c4b3.js"
+    "static/css/main.8cf1849d.css",
+    "static/js/main.91ebe38b.js"
   ]
 }
