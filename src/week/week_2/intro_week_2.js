@@ -6,6 +6,7 @@ import zenerova_ex_1 from"../../images/week_2_img/zenerova_ex_1.png";
 import zenerova_ex_2 from"../../images/week_2_img/zenerova_ex_2.png";
 import zenerova_ex_3 from"../../images/week_2_img/zenerova_ex_3.png";
 import zenerova_ex_4 from"../../images/week_2_img/zenerova_ex_4.png";
+import zenerova_ex_5 from"../../images/week_2_img/zenerova_ex_5.png";
 
 
 
@@ -46,7 +47,8 @@ const intro_week_2 = () => {
                            
                         <Kontainerintro text="Prvý príklad" link="week_2_example_2" text_link={<img src={zenerova_ex_2} alt="Schema2"></img>}/>    
                        
-                        <Kontainerintro text="Druhá schéma"/>
+                        <Kontainerintro text="Druhý príklad" link="week_2_example_5" text_link={<img src={zenerova_ex_5} alt="Schema2"></img>}/>    
+                       
                    
                        </div>
                        

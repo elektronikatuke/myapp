@@ -10,62 +10,44 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   {
-    title: '1. Týždeň',
+    title: '1. Kapitola',
     path: '/week/week_1/intro_week_1',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },
   {
-    title: 'week_2',
+    title: '2. Kapitola',
     path: '/week/week_2/intro_week_2',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },
   {
-    title: 'week_3',
+    title: '3. Kapitola',
     path: '/week/week_3/intro_week_3',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },
   {
-    title: 'week_4',
+    title: '4. Kapitola',
     path: '/week_4',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },
   {
-    title: 'week_5',
+    title: '5. Kapitola',
     path: '/week_5',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },
   {
-    title: 'week_6',
+    title: '6. Kapitola',
     path: '/week_6',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },
   {
-    title: 'week_7',
+    title: '7. Kapitola',
     path: '/week_7',
-    icon: <IoIcons.IoIosPaper />,
-    cName: 'nav-text'
-  },
-  {
-    title: 'week_8',
-    path: '/week_8',
-    icon: <IoIcons.IoIosPaper />,
-    cName: 'nav-text'
-  },
-  {
-    title: 'week_9',
-    path: '/week_9',
-    icon: <IoIcons.IoIosPaper />,
-    cName: 'nav-text'
-  },
-  {
-    title: 'week_10',
-    path: '/week_10',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },

@@ -19,11 +19,16 @@ import Week1pdf from "./week/week_1/week_1_pdf";
 import Week_2_example_2 from "./week/week_2/week_2_example_2";
 import Week_2_example_3 from "./week/week_2/week_2_example_3";
 import Week_2_example_4 from "./week/week_2/week_2_example_4";
+import Week_2_example_5 from "./week/week_2/week_2_example_5";
 
 
 import Week3pdf from "./week/week_3/week_3_pdf";
 import intro_week_3 from "./week/week_3/intro_week_3";
 import Week_3_ex_3_1 from "./week/week_3/week_3_example_3_1";
+
+import intro_week_4 from "./week/week_4/intro_week_4";
+import Week_4_example_1 from "./week/week_4/week_4_example_1";
+import Week_4_example_2 from "./week/week_4/week_4_example_2";
 
 
 
@@ -51,10 +56,16 @@ const First_page = () =>{
             <Route path='/week/week_2/week_2_example_2' component={Week_2_example_2}/>
             <Route path='/week/week_2/week_2_example_3' component={Week_2_example_3}/>
             <Route path='/week/week_2/week_2_example_4' component={Week_2_example_4}/>
+            <Route path='/week/week_2/week_2_example_5' component={Week_2_example_5}/>
 
             <Route path='/week/week_3/intro_week_3' component={intro_week_3} />
             <Route path='/week/week_3/week_3_pdf' component={Week3pdf}/>
             <Route path='/week/week_3/week_3_example_3_1' component={Week_3_ex_3_1}/>
+
+            <Route path='/week/week_4/intro_week_4' component={intro_week_4} />
+            <Route path='/week/week_4/week_4_example_1' component={Week_4_example_1}/>
+            <Route path='/week/week_4/week_4_example_2' component={Week_4_example_2}/>
+
           </Switch>
         
         <Footer />
