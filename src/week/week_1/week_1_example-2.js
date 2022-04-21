@@ -5,6 +5,7 @@ import Druha_schema_open from "../../examples/examples_1/Druhá/Druha_schema_ope
 import Druha_schema_open_modif from "../../examples/examples_1/Druhá/Duha_schema_open_modif";
 import Druha_schema_close from "../../examples/examples_1/Druhá/Druha_schema_close";
 import {ReactComponent as Grafex3} from '../../images/week_1_img/GRAFY/Graf_3.svg';
+import { scroller } from "react-scroll";
 import Aos from "aos";
 import 'aos/dist/aos.css';
 
@@ -16,6 +17,13 @@ const Example_2 = () => {
     Aos.init({ duration: 2000});
   }, []);
 
+const scrollToSection = (element) => {
+    scroller.scrollTo(element, {
+    duration: 800,
+    delay: 0,
+    smooth: "easeInOutQuart",
+  });
+  };
     return(
         <>
             <h1 className="nadpis"> 
@@ -32,8 +40,8 @@ const Example_2 = () => {
             <div className="flex_left">
               <h2>Riešenie:</h2>
               <p>Predpokladajme že je dióda v ideálnom stave. Na riešenie použijeme metódu predpokladaných stavov (MPS) diódy, kde môžu nastať dva stavy:</p>
-              <a href="#firstlink"><p>I: D = O (diode is opened)</p></a>
-              <a href="#secondlink"><p>II: D = C (diode is closed)</p></a>
+              <p className="pointer" onClick={() => {scrollToSection("firstlink")}}>I: D = O (diode is opened)</p>
+              <p className="pointer" onClick={() => {scrollToSection("secondlink")}}>II: D = C (diode is closed)</p>
               </div>
 
               <div data-aos="fade-right" className="flex_left" id="firstlink">

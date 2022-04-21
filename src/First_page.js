@@ -44,9 +44,6 @@ const First_page = () =>{
           <Switch>
             <Route exact path='/' component={Home}/>
 
-           
-    
-
             <Route path='/week/week_1/week_1_example-1' component={Example_1} />
             <Route path='/week/week_1/week_1_example-2' component={Example_2} />
             <Route path='/week/week_1/week_1_example-3' component={Example_3} />
