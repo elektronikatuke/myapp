@@ -15,6 +15,14 @@ const Quiz = ({questions}) => {
 	const [score, setScore] = useState(0);    
 	const [number] = useState([])
 	const [text, setText] = useState([])
+
+	function mouseDown() {
+		document.getElementById("restart").setAttribute("class", "restart_button_pressed");
+	  }
+	  
+	function mouseUp() {
+		document.getElementById("restart").setAttribute("class", "restart_button");
+	}
     
     function restart(){
         setScore(0);
@@ -138,7 +146,9 @@ const Quiz = ({questions}) => {
 						</div>
 					</div>
                 ))}
-			<div>	<button onClick={restart}>Restart</button>	</div>
+			<div className='restart_button_div'>	
+			<button className='restart_button' onClick={restart} onMouseDown={mouseDown} onMouseUp={mouseUp} id="restart">Restart</button>	
+			</div>
 			</div>
         </>
 	);

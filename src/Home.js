@@ -25,9 +25,9 @@ const Home = () => {
             
             <Kontainer link="/week/week_2/intro_week_2" text_link="2. Kapitola" text="V tejto kapitole sa pozrieme na zenerové diódy, výpočet a určovanie ich regulátorov"/>
             
-            <Kontainer link="/week/week_3/intro_week_3" text_link={"3. Kapitola"} text="V tejto kapitole sa pozrieme na bipolárne tranzistory"/>
+            <Kontainer link="/week/week_3/intro_week_3" text_link="3. Kapitola" text="V tejto kapitole sa pozrieme na bipolárne tranzistory"/>
            
-            <Kontainer link="/week/week_4/intro_week_4" text_link={"4. Kapitola"} text="Kapitola 4."/>
+            <Kontainer link="/week/week_4/intro_week_4" text_link="4. Kapitola" text="Kapitola 4."/>
            
             
             <Kontainer/>
