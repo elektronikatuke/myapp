@@ -28,6 +28,7 @@ const intro_week_1 = () => {
             </div>
             
             
+            
             <h2 className="stred">Podrobnejšie vysvetlenie na príkladoch</h2>
             
             <div className="tables">

@@ -5,6 +5,7 @@ import ScrollToTop from "./komponenty/ScrollToTop";
 import Footer from "./komponenty/Footer";
 import { Switch, Route } from 'react-router-dom';
 import Home from "./Home";
+
 import intro_week_1 from "./week/week_1/intro_week_1";
 import Example_1 from "./week/week_1/week_1_example-1";
 import Example_2 from "./week/week_1/week_1_example-2";
@@ -36,12 +37,16 @@ import Week_4_example_2 from "./week/week_4/week_4_example_2";
 const First_page = () =>{
   return(
    
-      <>     
+      <>   
         <Navbar />
         <ScrollToTop />
         
           <Switch>
             <Route exact path='/' component={Home}/>
+
+           
+    
+
             <Route path='/week/week_1/week_1_example-1' component={Example_1} />
             <Route path='/week/week_1/week_1_example-2' component={Example_2} />
             <Route path='/week/week_1/week_1_example-3' component={Example_3} />

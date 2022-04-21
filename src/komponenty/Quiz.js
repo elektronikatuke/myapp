@@ -16,8 +16,7 @@ const Quiz = ({questions}) => {
 	const [number] = useState([])
 	const [text, setText] = useState([])
 
-	
-    
+
     function restart(){
         setScore(0);
 		setShowScore(false);
