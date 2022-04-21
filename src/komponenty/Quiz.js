@@ -57,7 +57,16 @@ const Quiz = ({questions}) => {
 		}
 	};
 
-	const handleAnswerOptionClick = (isCorrect, id, answerText) => {
+	function submit(){
+		if(currentQuestion === questions.length){
+			setShowScore(true);
+		}
+		else{
+			alert("Pre vyhodnotenie vyplň prosím všetky otázky :D");
+		}
+	}
+
+	const AnswerClick = (isCorrect, id, answerText) => {
 		
 		var nextQuestion = currentQuestion;
 		
@@ -93,11 +102,11 @@ const Quiz = ({questions}) => {
 				if (isCorrect && !showScore){
 					setScore(score + 1);
 				}
-				if (nextQuestion < questions.length) {
+				if (nextQuestion <= questions.length) {
 					setCurrentQuestion(nextQuestion);
-				} else {
+				} /*else {
 					setShowScore(true);
-				}
+				}*/
 				
 				number.push(id)
 				
@@ -137,7 +146,7 @@ const Quiz = ({questions}) => {
 								{questions.answerOptions.map((answerOption) => (
                                     <>
 									<button id = {answerOption.answerText} onClick={() => {
-										handleAnswerOptionClick(answerOption.isCorrect, questions.id, answerOption.answerText);
+										AnswerClick(answerOption.isCorrect, questions.id, answerOption.answerText);
 									}}>{answerOption.answerText}</button>
                                     
                                     </>
@@ -147,7 +156,12 @@ const Quiz = ({questions}) => {
 					</div>
                 ))}
 			<div className='restart_button_div'>	
-			<button className='restart_button' onClick={restart} onMouseDown={mouseDown} onMouseUp={mouseUp} id="restart">Restart</button>	
+				<button className='restart_button' onClick={submit} onMouseDown={mouseDown} onMouseUp={mouseUp} id="restart">Vyhodnoť</button>	
+				<p id='chyba'></p>
+			</div>
+			
+			<div className='restart_button_div'>	
+				<button className='restart_button' onClick={restart} onMouseDown={mouseDown} onMouseUp={mouseUp} id="restart">Restart</button>	
 			</div>
 			</div>
         </>
