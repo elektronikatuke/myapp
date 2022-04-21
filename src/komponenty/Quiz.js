@@ -40,51 +40,62 @@ const Quiz = ({questions}) => {
         }
 
     }
- 
+
+	const removeItem = (arr, item) => {
+		const index = arr.findIndex((element) => element === item);
+		if (index !== -1) {
+		  arr.splice(index, 1);
+		  return arr;
+		}
+	};
+
 	const handleAnswerOptionClick = (isCorrect, id, answerText) => {
 		
+		var nextQuestion = currentQuestion;
+		
 		if(number.find(element => element === id)){
-			console.log("AAAAA");
-			console.log(id);
-		}
-		else{
+			removeItem(number, id);
 
 			if(text.find(odpoved => odpoved === answerText)){
-				console.log("AAAAA");
-				console.log(answerText);
+				removeItem(text, answerText);
+				if (isCorrect && !showScore){
+					setScore(score - 1);
+				}
+				nextQuestion = currentQuestion - 1;
+				if (nextQuestion < questions.length) {
+					setCurrentQuestion(nextQuestion);
+				} else {
+					setShowScore(true);
+				}
+				const doc = document.getElementById(answerText);
+				doc.setAttribute('class' , 'none');
+				
 			}
-			else{
-			text.push(answerText);
-			console.log(text);
-            const doc = document.getElementById(answerText);
-            doc.setAttribute('class' , 'opa');
-			}
-
 			
-
-			const nextQuestion = currentQuestion + 1;
-
-			if (isCorrect && !showScore){
-				setScore(score + 1);
-			}
-
-			if (nextQuestion < questions.length) {
-				setCurrentQuestion(nextQuestion);
-			} else {
-				setShowScore(true);
-			}
-			console.log(nextQuestion)
 			
-			number.push(id)
-			console.log(number);
-
 		}
-        questions.forEach(object =>{
-            if(object.answerOptions.isCorrect === "true"){
-                console.log("True", questions.id);
-            }
-        });
-        
+		else{
+				text.push(answerText);
+				
+				const doc = document.getElementById(answerText);
+				doc.setAttribute('class' , 'opa');
+		
+				nextQuestion = currentQuestion + 1;
+
+				if (isCorrect && !showScore){
+					setScore(score + 1);
+				}
+				if (nextQuestion < questions.length) {
+					setCurrentQuestion(nextQuestion);
+				} else {
+					setShowScore(true);
+				}
+				
+				number.push(id)
+				
+			
+
+			}
 	};
 	return (
 		<>		
