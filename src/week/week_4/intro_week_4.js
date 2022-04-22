@@ -2,6 +2,10 @@ import React from "react";
 import '../../Home.css';
 import '../../App.css';
 import Kontainerintro from "../../komponenty/Kontainer_intro";
+import prva_schema_4 from"../../images/week_4_img/prva_schema_4.png";
+import druha_schema_4 from"../../images/week_4_img/druha_schema_4.png";
+import tretia_schema_4 from"../../images/week_4_img/tretia_schema_4.png";
+import stvrta_schema_4 from"../../images/week_4_img/stvrta_schema_4.png";
 
 
 
@@ -27,11 +31,11 @@ const intro_week_4 = () => {
             
             <div className="tables">
                 
-                <Kontainerintro link="./week_4_example_1" text_link="Link" text="Prvý príklad"/>
+                <Kontainerintro link="./week_4_example_1" text_link={<img src={prva_schema_4} alt="Schema1"></img>} text="Prvý príklad"/>
 
-                <Kontainerintro link="./week_4_example_2" text_link="Link" text="Druhý príklad"/>
+                <Kontainerintro link="./week_4_example_2" text_link={<img src={druha_schema_4} alt="Schema2"></img>} text="Druhý príklad"/>
             
-                <Kontainerintro link="./week_4_example_3" text_link="Link" text="Tretí príklad"/>
+                <Kontainerintro link="./week_4_example_3" text_link={<img src={tretia_schema_4} alt="Schema3"></img>} text="Tretí príklad"/>
                        
             </div>
             
@@ -39,7 +43,7 @@ const intro_week_4 = () => {
             
             <div className="tables">
                 
-                <Kontainerintro link="./week_4_example_4" text_link="Link" text="Prvá schéma"/>
+                <Kontainerintro link="./week_4_example_4" text_link={<img src={stvrta_schema_4} alt="Schema4"></img>} text="Prvá schéma"/>
                 
                 <Kontainerintro link="./week_4_example_5" text_link="Link" text="Druhá schéma"/>
         
