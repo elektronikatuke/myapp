@@ -32,6 +32,7 @@ import Week_4_example_1 from "./week/week_4/week_4_example_1";
 import Week_4_example_2 from "./week/week_4/week_4_example_2";
 import Week_4_example_3 from "./week/week_4/week_4_example_3";
 import Week_4_example_4 from "./week/week_4/week_4_example_4";
+import Week_4_example_5 from "./week/week_4/week_4_example_5";
 
 
 
@@ -71,6 +72,7 @@ const First_page = () =>{
             <Route path='/week/week_4/week_4_example_2' component={Week_4_example_2}/>
             <Route path='/week/week_4/week_4_example_3' component={Week_4_example_3}/>
             <Route path='/week/week_4/week_4_example_4' component={Week_4_example_4}/>
+            <Route path='/week/week_4/week_4_example_5' component={Week_4_example_5}/>
 
           </Switch>
         
