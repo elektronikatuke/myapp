@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import '../App.css';
+import ScrollToTop from './ScrollToTop';
 
 
 const Quiz = ({questions}) => {
@@ -18,6 +19,7 @@ const Quiz = ({questions}) => {
 	
 
     function restart(){
+		window.scrollTo(0, 0);
         setScore(0);
 		setShowScore(false);
 		setCurrentQuestion(0);	
