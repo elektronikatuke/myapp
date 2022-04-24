@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myapp/static/css/main.5a3c1a67.css",
-    "main.js": "/myapp/static/js/main.235af457.js",
+    "main.css": "/myapp/static/css/main.5dfe62eb.css",
+    "main.js": "/myapp/static/js/main.09448dcf.js",
     "static/js/787.28cb0dcd.chunk.js": "/myapp/static/js/787.28cb0dcd.chunk.js",
     "pdf.worker.js": "/myapp/e7e915313973ba1d49f9bb2a1998626e.js",
     "static/media/pozadie_obvody_1.png": "/myapp/static/media/pozadie_obvody_1.0caeab71bada0c4205fc.png",
@@ -15,12 +15,12 @@
     "static/media/tretia_schema_4.png": "/myapp/static/media/tretia_schema_4.03569c111095b551e76f.png",
     "static/media/prva_schema_4.png": "/myapp/static/media/prva_schema_4.3238a3776c19c97e3646.png",
     "index.html": "/myapp/index.html",
-    "main.5a3c1a67.css.map": "/myapp/static/css/main.5a3c1a67.css.map",
-    "main.235af457.js.map": "/myapp/static/js/main.235af457.js.map",
+    "main.5dfe62eb.css.map": "/myapp/static/css/main.5dfe62eb.css.map",
+    "main.09448dcf.js.map": "/myapp/static/js/main.09448dcf.js.map",
     "787.28cb0dcd.chunk.js.map": "/myapp/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a3c1a67.css",
-    "static/js/main.235af457.js"
+    "static/css/main.5dfe62eb.css",
+    "static/js/main.09448dcf.js"
   ]
 }
