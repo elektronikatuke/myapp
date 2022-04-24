@@ -126,6 +126,21 @@
   background-attachment: fixed;
 }
 
+.pozadie{
+  position: relative;
+}
+.pozadie:before{
+  content: "";
+  background: linear-gradient(to top, transparent, 99%, white), url('images/pozadie_obvody_1.png');
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  opacity: .15;
+}
 .question-section .flex_left{
   display: grid;
   justify-content: space-around;

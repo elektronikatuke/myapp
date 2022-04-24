@@ -15,41 +15,42 @@ const intro_week_3 = () => {
                     <h2>V tejto kapitole sa pozrieme na bipolárne tranzistory.</h2>
                 </div>
             </div>
-
+        <div className="pozadie">
             <h2 className="stred">Teoretická časť</h2>
             
-            <div className="tables">
-                <Kontainerintro link="./week_3_pdf" text_link="Prednaska" text="Prezentácia"/>
-            </div>
-        
-            <h2 className="stred">Podrobnejšie vysvetlenie na príkladoch</h2>
+                <div className="tables">
+                    <Kontainerintro link="./week_3_pdf" text_link="Prednaska" text="Prezentácia"/>
+                </div>
             
-            <div className="tables">
+                <h2 className="stred">Podrobnejšie vysvetlenie na príkladoch</h2>
                 
-                <Kontainerintro link="week_3_example_3_1" text_link={"Link"} text="Prvý príklad"/>
+                <div className="tables">
+                    
+                    <Kontainerintro link="week_3_example_3_1" text_link={"Link"} text="Prvý príklad"/>
 
-                <Kontainerintro link="" text_link={""} text="Druhý príklad"/>
+                    <Kontainerintro link="" text_link={""} text="Druhý príklad"/>
+                
+                    <Kontainerintro link="" text_link={""} text="Tretí príklad"/>
+                        
+                </div>
+                
+                <h2 className="stred">Teraz skús viac sám</h2>
+                
+                <div className="tables">
+                    
+                    <Kontainerintro link="" text_link={""} text="Prvá schéma"/>
+                    
+                    <Kontainerintro link="" text_link={""} text="Druhá schéma"/>
             
-                <Kontainerintro link="" text_link={""} text="Tretí príklad"/>
-                       
+                </div>
+                
+            <h2 className="stred">Otestuj sa</h2>
+                <div className="tables">
+                
+                <Kontainerintro link="" text_link="QUIZ" text="Test"/>
+                    
+                </div> 
             </div>
-            
-            <h2 className="stred">Teraz skús viac sám</h2>
-            
-            <div className="tables">
-                
-                <Kontainerintro link="" text_link={""} text="Prvá schéma"/>
-                
-                <Kontainerintro link="" text_link={""} text="Druhá schéma"/>
-        
-            </div>
-            
-        <h2 className="stred">Otestuj sa</h2>
-            <div className="tables">
-               
-               <Kontainerintro link="" text_link="QUIZ" text="Test"/>
-                
-            </div> 
         </div>
     );
 }

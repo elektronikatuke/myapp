@@ -5,9 +5,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: url('images/pozadie_obvody_1.png');
+  background: linear-gradient(to bottom, transparent,85%,white), url('images/pozadie_obvody_1.png');
   background-size: cover;
-  background-attachment: fixed;
   flex-direction: column;
 }
 

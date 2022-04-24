@@ -33,7 +33,15 @@ const Quiz = ({questions}) => {
         for (let i = 0; i < nodeListtrue.length; i++) {
         nodeListtrue[i].setAttribute('class', 'none');   
         }
-			
+
+		
+        for (let num = 1; num <= questions.length; num++) {
+			var doc = document.getElementById("9" + num);
+			if(doc.className === "next collapsed"){
+				doc.setAttribute('class', 'next');
+			}
+        }
+	
     }
 
     function correct(answerOption){
@@ -67,11 +75,10 @@ const Quiz = ({questions}) => {
 		
 		if(number.find(element => element === id)){
 
-			document.getElementById('9' + id).classList.toggle('collapsed');	
-
 			if(text.find(odpoved => odpoved === answerText)){
 				removeItem(number, id);
 				removeItem(text, answerText);
+				document.getElementById('9' + id).classList.toggle('collapsed');	
 				if (isCorrect && !showScore){
 					setScore(score - 1);
 				}
