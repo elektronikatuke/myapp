@@ -20,45 +20,46 @@ const intro_week_2 = () => {
                     <h2>V tejto kapitole sa pozrieme na zenerové diódy, výpočet a určovanie ich regulátorov...</h2>
                 </div>
             </div>
-
-            <h2 className="stred">Teoretická časť</h2>
-            <div className="tables">
-                <Kontainerintro text="Prednáška"/>
-            
-            </div>
-            
-            
-            <h2 className="stred">Podrobnejšie vysvetlenie na príkladoch</h2>
-            
-            <div className="tables">
-
-                <Kontainerintro link="week_2_example_1" text_link={<img src={zenerova_ex_1} alt="Schema1"></img>} text="Prvý príklad"/>
+            <div className="pozadie">
+                <h2 className="stred">Teoretická časť</h2>
+                <div className="tables">
+                    <Kontainerintro text="Prednáška"/>
                 
-                <Kontainerintro link="week_2_example_3" text_link={<img src={zenerova_ex_3} alt="Schema3"></img>} text="Druhý príklad"/>
-
-                <Kontainerintro link="week_2_example_4" text_link={<img src={zenerova_ex_4} alt="Schema3"></img>} text="Tretí príklad"/>
-
-                       
                 </div>
-                       
-                   <h2 className="stred">Teraz skús viac sám</h2>
-                       
-                   <div className="tables">
-                           
-                        <Kontainerintro text="Prvý príklad" link="week_2_example_2" text_link={<img src={zenerova_ex_2} alt="Schema2"></img>}/>    
-                       
-                        <Kontainerintro text="Druhý príklad" link="week_2_example_5" text_link={<img src={zenerova_ex_5} alt="Schema2"></img>}/>    
-                       
-                   
-                       </div>
-                       
-                   <h2 className="stred">Otestuj sa</h2>
-                       <div className="tables">
-                          
-                          <Kontainerintro text_link="QUIZ" text="Test"/>
-                           
-                       </div> 
-                   </div>
+                
+                
+                <h2 className="stred">Podrobnejšie vysvetlenie na príkladoch</h2>
+                
+                <div className="tables">
+
+                    <Kontainerintro link="week_2_example_1" text_link={<img src={zenerova_ex_1} alt="Schema1"></img>} text="Prvý príklad"/>
+                    
+                    <Kontainerintro link="week_2_example_3" text_link={<img src={zenerova_ex_3} alt="Schema3"></img>} text="Druhý príklad"/>
+
+                    <Kontainerintro link="week_2_example_4" text_link={<img src={zenerova_ex_4} alt="Schema3"></img>} text="Tretí príklad"/>
+
+                        
+                    </div>
+                        
+                    <h2 className="stred">Teraz skús viac sám</h2>
+                        
+                    <div className="tables">
+                            
+                            <Kontainerintro text="Prvý príklad" link="week_2_example_2" text_link={<img src={zenerova_ex_2} alt="Schema2"></img>}/>    
+                        
+                            <Kontainerintro text="Druhý príklad" link="week_2_example_5" text_link={<img src={zenerova_ex_5} alt="Schema2"></img>}/>    
+                        
+                    
+                        </div>
+                        
+                    <h2 className="stred">Otestuj sa</h2>
+                        <div className="tables">
+                            
+                            <Kontainerintro text_link="QUIZ" text="Test"/>
+                            
+                        </div> 
+                    </div>
+                </div> 
     );
 }
 

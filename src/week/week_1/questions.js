@@ -6,6 +6,17 @@ const questions = [
     {   
         id: 1,
         isClicked: false,
+        questionText: 'Ktoré dva materiály majú väčšiu šírku zakázaného pásma',
+        answerOptions: [
+            { answerText: 'Cu, Ga', isCorrect: false},
+            { answerText: 'Al, Si', isCorrect: false},
+            { answerText: 'Ga, Si', isCorrect: true},
+            { answerText: 'Cu, Al', isCorrect: false},
+        ],
+    },
+    {
+        id: 2,
+        isClicked: false,
         questionImage: <img src={prva_schema} alt="schema1"></img>,
         questionText: 'Ako je určený 2 KZ zo schémy',
         answerOptions: [
@@ -16,7 +27,7 @@ const questions = [
         ],
     },
     {
-        id: 2,
+        id: 3,
         isClicked: false,
         questionImage: <img src={prva_schema} alt="schema1"></img>,
         questionText: 'Ak je dióda v druhom stave čiže diódov nepreteká prúd, aká podmienka musí byť splnená?',
@@ -28,7 +39,7 @@ const questions = [
         ],
     },
     {
-        id: 3,
+        id: 4,
         isClicked: false,
         questionImage: <img src={druha_schema} alt="schema2"></img>,
         questionText: 'Urč vzorec pre druhý Kirchhoffov zákon?',
@@ -40,7 +51,7 @@ const questions = [
         ],
     },
     {
-        id: 4,
+        id: 5,
         isClicked: false,
         questionImage: <img src={tretia_schema} alt="schema3"></img>,
         questionText: 'Kedy nastane prvý stav? (D1 a D2 sú zatvorené)',
@@ -51,5 +62,26 @@ const questions = [
             { answerText: 'v > 4V', isCorrect: true },
         ],
     },
+    {   
+        id: 6,
+        isClicked: false,
+        questionText: 'Čo je charakteristické pre polovodič',
+        answerOptions: [
+            { answerText: 'Polovodič sa chová ako izolant', isCorrect: false},
+            { answerText: 'Polovodičom prechádza vždy elektrický prúd', isCorrect: false},
+            { answerText: 'Polovodič sa stává elektricky vodivým vtedy, ak ho dostatočne ohrejeme', isCorrect: true},
+        ],
+    },
+    {   
+        id: 7,
+        isClicked: false,
+        questionText: 'Ktorá vodivosť závisí značne na teplote',
+        answerOptions: [
+            { answerText: 'Vlastná', isCorrect: true},
+            { answerText: 'Nevlastná vodivosť typu P', isCorrect: false},
+            { answerText: 'Nevlastná vodivosť typu N', isCorrect: false},
+        ],
+    },
+    
 ];
 export default questions;

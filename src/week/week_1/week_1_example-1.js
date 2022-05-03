@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { scroller } from "react-scroll";
 import '../../App.css';
 import Prva_schema_skrat from "../../examples/examples_1/Prvá/Prva_schema_skrat";
 import Prva_schema from "../../examples/examples_1/Prvá/Prva_schema";
@@ -14,6 +15,13 @@ const Example_1 = () => {
     Aos.init({ duration: 2000});
   }, []);
 
+ const scrollToSection = (element) => {
+    scroller.scrollTo(element, {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
     return(
         <>
             <h1 className="nadpis"> 
@@ -30,8 +38,8 @@ const Example_1 = () => {
             <div className="flex_left">
               <h2>Riešenie:</h2>
               <p>Predpokladajme že je dióda v ideálnom stave. Na riešenie použijeme metódu predpokladaných stavov (MPS) diódy, kde môžu nastať dva stavy:</p>
-              <a href="#firstlink"><p>I: D = O (diode is opened)</p></a>
-              <a href="#secondlink"><p>II: D = C (diode is closed)</p></a>
+              <p className="pointer" onClick={() => {scrollToSection("firstlink")}}>I: D = O (diode is opened)</p>
+              <p className="pointer" onClick={() => {scrollToSection("secondlink")}}>II: D = C (diode is closed)</p>
               </div>
 
               <div data-aos="fade-right" className="flex_left" id="firstlink">

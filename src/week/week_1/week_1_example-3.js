@@ -8,6 +8,7 @@ import Piata_schema_o_c from "../../examples/examples_1/Piata/Piata_schema_o_c";
 import Piata_schema_o_o from "../../examples/examples_1/Piata/Piata_schema_o_o";
 import Piata_schema_c_o from "../../examples/examples_1/Piata/Piata_schema_c_o";
 import {ReactComponent as Grafex5} from '../../images/week_1_img/GRAFY/Graf_5.svg';
+import { scroller } from "react-scroll";
 
 
 
@@ -15,7 +16,13 @@ const Example_3 = () => {
   useEffect(() => {
     Aos.init({ duration: 2000});
   }, []);
-
+  const scrollToSection = (element) => {
+    scroller.scrollTo(element, {
+    duration: 800,
+    delay: 0,
+    smooth: "easeInOutQuart",
+  });
+  };
     return(
         <>
             <h1 className="nadpis"> 
@@ -30,10 +37,12 @@ const Example_3 = () => {
             <div className="flex_left">
               <h2>Riešenie:</h2>
               <p><b>Riešenie:</b> použijeme metódu MPS a budeme mať 4 stavy.</p>
-            <a href="#firstlink"><p>stav I. D1 = zatvorená, D2 = zatvorená</p></a>
-            <a href="#secondlink"><p>stav II. D1 = otvorená, D2 = zatvorená</p></a>
-            <a href="#thirdlink"><p>stav III. D1 = Otvorená, D2 = Otvorená</p></a>
-            <a href="#fourthlink"><p>stav IV. D1 = zatvorená, D2 = otvorená</p></a>
+              <p className="pointer" onClick={() => {scrollToSection("firstlink")}}>stav I. D1 = zatvorená, D2 = zatvorená</p>
+              <p className="pointer" onClick={() => {scrollToSection("secondlink")}}>stav II. D1 = otvorená, D2 = zatvorená</p>
+              <p className="pointer" onClick={() => {scrollToSection("thirdlink")}}>stav III. D1 = Otvorená, D2 = Otvorená</p>
+              <p className="pointer" onClick={() => {scrollToSection("fourthlink")}}>stav IV. D1 = zatvorená, D2 = otvorená</p>
+          
+            
             </div>
 
             <div data-aos="fade-right" className="flex_left" id="firstlink">

@@ -5,6 +5,7 @@ import schema_1 from '../../images/week_1_img/prva_schema.png';
 import schema_2 from '../../images/week_1_img/Tretia_schema.png';
 import schema_3 from '../../images/week_1_img/Piata_schema.png';
 import schema_6 from '../../images/week_1_img/Siesta_schema.png'
+
 import '../../App.css';
 import Kontainerintro from "../../komponenty/Kontainer_intro";
 
@@ -20,7 +21,7 @@ const intro_week_1 = () => {
                     <h2>V tejto kapitole sa pozrieme na polovodičové diódy, výpočet a určovanie ich <b>VA</b> charakteristík z priložených príkladov</h2>
                 </div>
             </div>
-
+            <div className="pozadie">
             <h2 className="stred">Teoretická časť</h2>
 
             <div className="tables">
@@ -57,6 +58,7 @@ const intro_week_1 = () => {
                <Kontainerintro link="../week_1/quiz1" text_link="QUIZ" text="Test"/>
                 
             </div> 
+        </div>
         </div>
     );
 }

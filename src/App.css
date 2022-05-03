@@ -72,6 +72,7 @@
   margin-top: 100px;
   margin-bottom: 100px;
   box-shadow: 5px 10px 18px #888888;
+
 }
 .flex_left a{
   text-decoration: none;
@@ -83,7 +84,7 @@
   transition: 500ms;
 }
 .flex_left p{
-  padding: 15px 5px 15px 5px;
+  padding: 15px 20px 15px 5px;
   margin: 0px;
 }
 .answer-buttons{
@@ -107,6 +108,11 @@
   border-radius: 10px;
   cursor: pointer;
   padding: 5px 0px 5px 0px;
+  transition: all 300ms;
+}
+.answer-section button:hover{
+  transition: all 300ms;
+  background-color:rgb(0, 185, 255, 0.5);  
 }
 
 .questionText, .questionText img{
@@ -120,6 +126,21 @@
   background-attachment: fixed;
 }
 
+.pozadie{
+  position: relative;
+}
+.pozadie:before{
+  content: "";
+  background: linear-gradient(to top, transparent, 99%, white), url('images/pozadie_obvody_1.png');
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  opacity: .15;
+}
 .question-section .flex_left{
   display: grid;
   justify-content: space-around;
@@ -142,10 +163,17 @@
 
 }
 
-.quiz-flex{
-  display: flex;
-  flex-direction: column;
+.next {
+  overflow:hidden;
+  max-height: 0;
+  transition: max-height 0.5s; 
 }
+.collapsed {
+  transition: max-height 1s; 
+  height:auto;
+  max-height:300px;
+}
+
 
 .hoverdiod {
   transition: 500ms;
@@ -286,7 +314,49 @@
 .restart_button:hover{
   background-color: #00b9e1;
   transition: 500ms;
+  cursor: pointer;
 }
+
+
+details {
+  padding: .5em .5em 0;
+}
+
+summary {
+  border: 1px solid black;
+  font-weight: bold;
+  margin: -.5em -.5em 0;
+  padding: .5em;
+  min-width: 100px;
+  width: fit-content;
+  margin: auto;
+  background-color: white;
+}
+
+details[open] {
+  padding: .5em;
+}
+
+details[open] summary {
+  border: 1px solid black;
+  margin-bottom: .5em;
+  margin: auto;
+}
+
+.pg-viewer-wrapper .pg-viewer{
+  width: -webkit-fill-available;
+}
+.Docs_App{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+
+
+
 
 
 #responsive{
@@ -320,6 +390,26 @@
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 550px) {
+  .question-section .flex_left{
+    display: block;
+  }
+  .questionText, .questionText img{
+    width: 90%;
+    height: auto;
+    margin: auto;
+  }
+
+  .questionImage img{
+    width: 90%;
+    height: auto;
+  }
+
+
+
+
+}  
 @keyframes shake {
 
 0%    {transform: translate(0px, 0px) rotate(0deg);}
