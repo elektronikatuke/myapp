@@ -11,6 +11,7 @@ import { useHistory } from 'react-router-dom';
 
 
 const Logout = () =>{
+  <Link to="/"></Link>
   sessionStorage.clear('Password');
   window.location.reload(false);
 }
@@ -30,8 +31,8 @@ function Navbar() {
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
           <div className='menu_flex'>
-            <div className='Logout'>
-              <Link to="/" onClick={Logout}>Logout</Link>
+            <div className='Logout' onClick={Logout}>
+              <Link to="/">Logout</Link>
             </div>
             <div className="Logout">
             <p onClick={() => history.goBack()}>Naspäť</p>
