@@ -3,6 +3,11 @@ import '../../Home.css';
 import '../../App.css';
 import Kontainerintro from "../../komponenty/Kontainer_intro";
 
+import example_1 from "../../images/week_3_img/example_1.png";
+import example_2 from "../../images/week_3_img/example_2.png";
+import example_3 from "../../images/week_3_img/example_3.png";
+import example_4 from "../../images/week_3_img/example_4.png";
+
 
 
 
@@ -12,7 +17,7 @@ const intro_week_3 = () => {
             <div className="home">
                 <div className="nadpis-style">
                     <h1>Bipolárne tranzistory</h1>
-                    <h2>V tejto kapitole sa pozrieme na bipolárne tranzistory.</h2>
+                    <h2>V tejto kapitole sa pozrieme na bipolárne tranzistory, ich charakteristiky, zaťažovacie DC a AC priamky a pracovný bod.</h2>
                 </div>
             </div>
         <div className="pozadie">
@@ -26,11 +31,11 @@ const intro_week_3 = () => {
                 
                 <div className="tables">
                     
-                    <Kontainerintro link="week_3_example_3_1" text_link={"Link"} text="Prvý príklad"/>
+                    <Kontainerintro link="week_3_example_3_1" text_link={<img src={example_1} alt="Schema1"></img>} text="Prvý príklad"/>
 
-                    <Kontainerintro link="" text_link={""} text="Druhý príklad"/>
+                    <Kontainerintro link="week_3_example_3_2" text_link={<img src={example_2} alt="Schema1"></img>} text="Druhý príklad"/>
                 
-                    <Kontainerintro link="" text_link={""} text="Tretí príklad"/>
+                    <Kontainerintro link="week_3_example_3_3" text_link={<img src={example_3} alt="Schema1"></img>} text="Tretí príklad"/>
                         
                 </div>
                 
@@ -38,7 +43,7 @@ const intro_week_3 = () => {
                 
                 <div className="tables">
                     
-                    <Kontainerintro link="" text_link={""} text="Prvá schéma"/>
+                <Kontainerintro link="week_3_example_3_4" text_link={<img src={example_4} alt="Schema1"></img>} text="Prvý príklad"/>
                     
                     <Kontainerintro link="" text_link={""} text="Druhá schéma"/>
             

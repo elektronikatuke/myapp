@@ -1,0 +1,83 @@
+.rezistor{
+    animation: 2s ease-in forwards glow infinite;
+}
+
+@keyframes glow{
+    0% {
+        stroke: black;    
+        stroke-width: 2px;
+      }
+    50% {
+        stroke: red;
+        stroke-width: 4px;
+    }
+    100%{
+        stroke: black;
+        stroke-width: 2px;
+    }
+}
+
+.b_rezistor{
+  animation: 2s ease-in forwards glow_b infinite;
+}
+
+@keyframes glow_b{
+  0% {
+      stroke: black;    
+      stroke-width: 2px;
+    }
+  50% {
+      stroke: blue;
+      stroke-width: 4px;
+  }
+  100%{
+      stroke: black;
+      stroke-width: 2px;
+  }
+}
+
+
+.visible{
+    opacity: 100%;
+    transition: 1000ms;
+}
+
+.non_visible{
+    opacity: 0%;
+    transition: 1000ms;
+}
+
+
+#arrow_3_3_1{
+    stroke-dasharray: 430;
+    stroke-dashoffset: 430;
+}
+#arrow_3_3_1.arrow_3_3_1 {
+    animation: 5s ease-in forwards arrow_3_3_1;
+  }
+
+@keyframes arrow_3_3_1 {
+  0% {
+    stroke-dashoffset: 430;    
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+#arrow_3_3_2{
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+}
+#arrow_3_3_2.arrow_3_3_2 {
+    animation: 5s ease-in forwards arrow_3_3_2;
+  }
+
+@keyframes arrow_3_3_2 {
+  0% {
+    stroke-dashoffset: 500;    
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}

@@ -25,14 +25,14 @@ const Home = () => {
             
             <Kontainer link="/week/week_2/intro_week_2" text_link="2. Kapitola" text="V tejto kapitole sa pozrieme na zenerové diódy, výpočet a určovanie ich regulátorov"/>
             
-            <Kontainer link="/week/week_3/intro_week_3" text_link="3. Kapitola" text="V tejto kapitole sa pozrieme na bipolárne tranzistory"/>
+            <Kontainer link="/week/week_3/intro_week_3" text_link="3. Kapitola" text="V tejto kapitole sa pozrieme na bipolárne tranzistory, ich charakteristiky, zatazovacie DC a AC priamky a pracovný bod"/>
            
-            <Kontainer link="/week/week_4/intro_week_4" text_link="4. Kapitola" text="Kapitola 4."/>
+            <Kontainer link="/week/week_4/intro_week_4" text_link="4. Kapitola" text="V  tejto kapitole sa pozrieme na bipolárne tranzistory ich nahradne striedave modely a výpočet striedaveho zisku"/>
 
             
             <Kontainer/>
             <Kontainer/>
-            <Kontainer/>
+            <Kontainer link="/week/week_7/intro_week_7" text_link="7. Kapitola" text="V tejto kapitole sa pozrieme na operačné zosilňovače"/>
            
             
            

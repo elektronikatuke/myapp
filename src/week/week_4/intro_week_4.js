@@ -6,6 +6,7 @@ import prva_schema_4 from"../../images/week_4_img/prva_schema_4.png";
 import druha_schema_4 from"../../images/week_4_img/druha_schema_4.png";
 import tretia_schema_4 from"../../images/week_4_img/tretia_schema_4.png";
 import stvrta_schema_4 from"../../images/week_4_img/stvrta_schema_4.png";
+import piata_schema_4 from"../../images/week_4_img/piata_schema_4.png";
 
 
 
@@ -15,7 +16,7 @@ const intro_week_4 = () => {
         <div>
             <div className="home">
                 <div className="nadpis-style">
-                    <h1>Kapitola 4.</h1>
+                    <h1>Bipolarne tranzistory, nahradne striedave modely, vypocet striedaveho zisku</h1>
                 
                 </div>
             </div>
@@ -45,7 +46,7 @@ const intro_week_4 = () => {
                     
                     <Kontainerintro link="./week_4_example_4" text_link={<img src={stvrta_schema_4} alt="Schema4"></img>} text="Prvá schéma"/>
                     
-                    <Kontainerintro link="./week_4_example_5" text_link="Link" text="Druhá schéma"/>
+                    <Kontainerintro link="./week_4_example_5" text_link={<img src={piata_schema_4} alt="Schema4"></img>} text="Druhá schéma"/>
             
                 </div>
                 

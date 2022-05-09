@@ -32,11 +32,11 @@ const Week_2_example_1 = () => {
             <p>Návrh pozostáva z výberu správnej hodnoty predradného odporu <b>Ri</b> a výpočtu menovitého výkonu pre Zenerovu diódu. </p>
             <p>Najskôr vypočítame hodnotu maximálneho prúdu Zenerovej diódy podľa rovnice, a potom vypočítame hodnotu vstupného odporu <b>Ri</b>.</p>
             <div className='div_friction'>
-            <p>I<sub>Zmax</sub> = </p> 
-            <Fractions upper="0.1(10-14) + 0.2(20-10)" lower="14 - 0.9 * 10 - 0.1 * 20"/>
-            <p> = </p>
-            <Fractions upper="1.6" lower="3" />
-            <p> = 0.533 A</p>
+                <p>I<sub>Zmax</sub> = </p> 
+                <Fractions upper="0.1(10-14) + 0.2(20-10)" lower="14 - 0.9 * 10 - 0.1 * 20"/>
+                <p> = </p>
+                <Fractions upper="1.6" lower="3" />
+                <p> = 0.533 A</p>
             </div>
             <p>Potom z rovnice vypočítame hodnotu odporu <b>Ri</b>:</p>
             <div className='div_friction'>

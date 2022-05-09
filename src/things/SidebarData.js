@@ -47,7 +47,7 @@ export const SidebarData = [
   },
   {
     title: '7. Kapitola',
-    path: '/week_7',
+    path: '/week/week_7/intro_week_7',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },

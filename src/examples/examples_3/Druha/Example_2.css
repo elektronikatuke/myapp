@@ -1,0 +1,28 @@
+#pr_line{
+    stroke-dasharray: 430;
+    stroke-dashoffset: 430;
+}
+#pr_line.pr_line_1 {
+    animation: 5s ease-in forwards pr_line_1;
+  }
+
+@keyframes pr_line_1 {
+  0% {
+    stroke-dashoffset: 430;    
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.visible{
+    opacity: 100%;
+    transition: 1000ms;
+}
+
+.non_visible{
+    opacity: 0%;
+    transition: 1000ms;
+}
+
+

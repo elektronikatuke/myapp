@@ -17,11 +17,9 @@ function Docs() {
         <FileViewer fileType="pdf" filePath="./PDF/Prednasky_1_diody.pdf" onError={onError} />
       </details>
     
-
-    
     </div>
     </div>
   );
 }
 
-export default Docs
+export default Docs;

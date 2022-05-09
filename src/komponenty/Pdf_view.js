@@ -21,7 +21,7 @@ const Pdf_view = ({ document }) => {
             {Array.from(
               new Array(numPages),
               (el,index) => (
-                <Page 
+                <Page  
                   key={`page_${index+1}`}
                   pageNumber={index+1}
                 />

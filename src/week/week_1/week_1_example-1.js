@@ -30,7 +30,7 @@ const Example_1 = () => {
            
             <div data-aos="fade" className="flex_left">
               <p>Na príklade z obrázka č1. určite a prekreslite VA charakteristiku<br />
-                A to je závislosť: <b className="font"> i = f(v), kde U0 = 2V, I0 = 2A, R1 = 2Ω, R2 = 2Ω.</b>
+                A to je závislosť: <b> i = f(v), kde U0 = 2V, I0 = 2A, R1 = 2Ω, R2 = 2Ω.</b>
               </p>
             {Prva_schema()}
             </div>
