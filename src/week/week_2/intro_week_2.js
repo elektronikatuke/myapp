@@ -51,6 +51,16 @@ const intro_week_2 = () => {
                         
                     
                         </div>
+
+                    
+                        <h2 className="stred">Neriešené príklady</h2>
+                        
+                        <div className="tables">
+                                
+                                <Kontainerintro text="Neriešené príklady" link="week_2_neriesene_1" text_link="Neriešené príklady - zenerove diody" />    
+                            
+            
+                            </div>
                         
                     <h2 className="stred">Otestuj sa</h2>
                         <div className="tables">

@@ -51,6 +51,14 @@ const intro_week_1 = () => {
                 <Kontainerintro link="../week_1/week_1_example-5" text_link={<img src={schema_6} alt="schema6"></img>} text="Druhá schéma"/>
         
             </div>
+
+            <h2 className="stred">Neriešené príklady</h2>
+            
+            <div className="tables">
+                
+                <Kontainerintro link="../week_1/week_1_neriesene_1" text_link="Neriešené príklady - polovodičové diódy" text="Neriešené príklady"/>
+                               
+            </div>
             
         <h2 className="stred">Otestuj sa</h2>
             <div className="tables">

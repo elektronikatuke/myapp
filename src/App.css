@@ -349,19 +349,13 @@ details[open] summary {
 }
 
 .pg-viewer-wrapper{
-  overflow-y: unset;
+  overflow-y: none;
 }
 
 .pg-viewer-wrapper .pg-viewer{
   width: -webkit-fill-available;
 }
-.Docs_App{
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 
-}
 
 
 

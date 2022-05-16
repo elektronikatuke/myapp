@@ -32,7 +32,7 @@ function Navbar() {
           </Link>
           <div className='menu_flex'>
             <div className='Logout' onClick={Logout}>
-              <Link to="/">Logout</Link>
+              <Link to="/">Odhlásiť sa</Link>
             </div>
             <div className="Logout">
             <p onClick={() => history.goBack()}>Naspäť</p>

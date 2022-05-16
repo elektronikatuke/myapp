@@ -45,15 +45,24 @@ const intro_week_3 = () => {
                     
                 <Kontainerintro link="week_3_example_3_4" text_link={<img src={example_4} alt="Schema1"></img>} text="Prvý príklad"/>
                     
-                    <Kontainerintro link="" text_link={""} text="Druhá schéma"/>
+                <Kontainerintro link="" text_link={""} text="Druhá schéma"/>
+            
+                </div>
+
+            
+                <h2 className="stred">Teraz skús viac sám</h2>
+                
+                <div className="tables">
+                        
+                <Kontainerintro link="week_3_neriesene" text_link="Neriešené príklady - zaťažovacie priamky a iné" text="Neriešené príklady"/>
             
                 </div>
                 
-            <h2 className="stred">Otestuj sa</h2>
+                <h2 className="stred">Otestuj sa</h2>
                 <div className="tables">
-                
-                <Kontainerintro link="" text_link="QUIZ" text="Test"/>
                     
+                    <Kontainerintro link="" text_link="QUIZ" text="Test"/>
+                        
                 </div> 
             </div>
         </div>

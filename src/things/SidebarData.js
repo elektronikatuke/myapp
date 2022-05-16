@@ -4,7 +4,7 @@ import * as IoIcons from 'react-icons/io';
 
 export const SidebarData = [
   {
-    title: 'Home',
+    title: 'Domov',
     path: '/',
     icon: <AiIcons.AiFillHome />,
     cName: 'nav-text'
@@ -35,19 +35,25 @@ export const SidebarData = [
   },
   {
     title: '5. Kapitola',
-    path: '/week_5',
+    path: '/week/week_6/intro_week_6',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },
   {
     title: '6. Kapitola',
-    path: '/week_6',
+    path: '/week/week_7/intro_week_7',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },
   {
-    title: '7. Kapitola',
-    path: '/week/week_7/intro_week_7',
+    title: 'Testy',
+    path: '#',
+    icon: <IoIcons.IoIosPaper />,
+    cName: 'nav-text'
+  },
+  {
+    title: 'Prídavné materiály',
+    path: '#',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },

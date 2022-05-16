@@ -21,10 +21,10 @@ function LoginForm({ Login, error}) {
                 {(error !== "") ? (<div className="error">{error}</div>) : ""}
 
                     <p>Prosím zadajte heslo</p>
-                    <label htmlFor="password">Password:</label>
+                    <label htmlFor="password">Heslo:</label>
                     <input type="password" name="password" id="password" onChange={e => setDetails({...details, password: e.target.value})} />
                 
-                <input type="submit" value="LOGIN" className="Logout-form"></input>
+                <input type="submit" value="Prihlásiť sa" className="Logout-form"></input>
                 </div>
             </div>
         </form>

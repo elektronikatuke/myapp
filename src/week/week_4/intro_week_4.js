@@ -16,7 +16,8 @@ const intro_week_4 = () => {
         <div>
             <div className="home">
                 <div className="nadpis-style">
-                    <h1>Bipolarne tranzistory, nahradne striedave modely, vypocet striedaveho zisku</h1>
+                    <h1>Bipolarne tranzistory</h1>
+                    <h2>V tejto kapitole sa pozrieme na bipolárne tranzistory ich náhradné striedavé modely a výpočet striedavého zisku</h2>
                 
                 </div>
             </div>
