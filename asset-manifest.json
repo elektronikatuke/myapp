@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/myapp/static/css/main.5d62beaa.css",
-    "main.js": "/myapp/static/js/main.a240f9fe.js",
-    "static/js/787.28cb0dcd.chunk.js": "/myapp/static/js/787.28cb0dcd.chunk.js",
-    "pdf.worker.js": "/myapp/e7e915313973ba1d49f9bb2a1998626e.js",
-    "static/media/pozadie_obvody_1.png": "/myapp/static/media/pozadie_obvody_1.0caeab71bada0c4205fc.png",
-    "static/media/zenerova_ex_2_cm.png": "/myapp/static/media/zenerova_ex_2_cm.b1048c3fac0ab8b13b98.png",
-    "static/media/Graf_3.svg": "/myapp/static/media/Graf_3.afad358b65156812192677ad57cfa694.svg",
-    "static/media/schema.svg": "/myapp/static/media/schema.a8cd805c81271a0932e4f0e7559eb3d9.svg",
-    "static/media/Graf_5.svg": "/myapp/static/media/Graf_5.f1aa88626276904fc17eb67f09241023.svg",
-    "static/media/Grafex1.svg": "/myapp/static/media/Grafex1.6fcc19570c576affffa05a100c9c3ac9.svg",
-    "static/media/Graf_ex_2.svg": "/myapp/static/media/Graf_ex_2.376ace1b6fdc731926c1c407c1f14dcc.svg",
-    "static/media/Grafex_6.svg": "/myapp/static/media/Grafex_6.bd50427631f20375db073ae38b2ecd9c.svg",
-    "static/media/tretia_schema_4.png": "/myapp/static/media/tretia_schema_4.03569c111095b551e76f.png",
-    "static/media/prva_schema_4.png": "/myapp/static/media/prva_schema_4.3238a3776c19c97e3646.png",
-    "index.html": "/myapp/index.html",
-    "main.5d62beaa.css.map": "/myapp/static/css/main.5d62beaa.css.map",
-    "main.a240f9fe.js.map": "/myapp/static/js/main.a240f9fe.js.map",
-    "787.28cb0dcd.chunk.js.map": "/myapp/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.86ef3d72.css",
+    "main.js": "/static/js/main.bc468d3c.js",
+    "static/js/27.262d8d9e.chunk.js": "/static/js/27.262d8d9e.chunk.js",
+    "pdf.worker.js": "/e7e915313973ba1d49f9bb2a1998626e.js",
+    "static/media/pozadie_obvody_1.png": "/static/media/pozadie_obvody_1.0caeab71bada0c4205fc.png",
+    "static/media/zenerova_ex_2_cm.png": "/static/media/zenerova_ex_2_cm.b1048c3fac0ab8b13b98.png",
+    "static/media/Graf_3.svg": "/static/media/Graf_3.afad358b65156812192677ad57cfa694.svg",
+    "static/media/schema.svg": "/static/media/schema.a8cd805c81271a0932e4f0e7559eb3d9.svg",
+    "static/media/Graf_5.svg": "/static/media/Graf_5.f1aa88626276904fc17eb67f09241023.svg",
+    "static/media/Grafex1.svg": "/static/media/Grafex1.6fcc19570c576affffa05a100c9c3ac9.svg",
+    "static/media/Graf_ex_2.svg": "/static/media/Graf_ex_2.376ace1b6fdc731926c1c407c1f14dcc.svg",
+    "static/media/Grafex_6.svg": "/static/media/Grafex_6.bd50427631f20375db073ae38b2ecd9c.svg",
+    "static/media/tretia_schema_4.png": "/static/media/tretia_schema_4.03569c111095b551e76f.png",
+    "static/media/piata.png": "/static/media/piata.a15056bbd17c798bac42.png",
+    "static/media/prva_schema_4.png": "/static/media/prva_schema_4.3238a3776c19c97e3646.png",
+    "static/media/example_1.png": "/static/media/example_1.3710788b0325eba2f8be.png",
+    "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.5d62beaa.css",
-    "static/js/main.a240f9fe.js"
+    "static/css/main.86ef3d72.css",
+    "static/js/main.bc468d3c.js"
   ]
 }
