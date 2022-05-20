@@ -42,10 +42,15 @@ import Week_4_example_2 from "./week/week_4/week_4_example_2";
 import Week_4_example_3 from "./week/week_4/week_4_example_3";
 import Week_4_example_4 from "./week/week_4/week_4_example_4";
 import Week_4_example_5 from "./week/week_4/week_4_example_5";
+import Neriesene_4 from "./week/week_4/week_4_neriesene";
 
 import intro_week_6 from "./week/week_6/intro_week_6";
 import Week6pdf from "./week/week_6/week_6_pdf";
 import Week_6_example_1 from "./week/week_6/week_6_example_1";
+import Week_6_example_2 from "./week/week_6/week_6_example_2";
+import Week_6_example_3 from "./week/week_6/week_6_example_3";
+import Week_6_example_4 from "./week/week_6/week_6_example_4";
+import Neriesene_6 from "./week/week_6/week_6_neriesene";
 
 import intro_week_7 from "./week/week_7/intro_week_7";
 import Week_7_1 from "./week/week_7/week_7_example-1";
@@ -101,10 +106,15 @@ const First_page = () =>{
             <Route path='/week/week_4/week_4_example_3' component={Week_4_example_3}/>
             <Route path='/week/week_4/week_4_example_4' component={Week_4_example_4}/>
             <Route path='/week/week_4/week_4_example_5' component={Week_4_example_5}/>
+            <Route path='/week/week_4/week_4_neriesene' component={Neriesene_4}/>
 
             <Route path='/week/week_6/intro_week_6' component={intro_week_6} />
             <Route path='/week/week_6/week_6_pdf' component={Week6pdf} />
             <Route path='/week/week_6/week_6_example_1' component={Week_6_example_1}/>
+            <Route path='/week/week_6/week_6_example_2' component={Week_6_example_2}/>
+            <Route path='/week/week_6/week_6_example_3' component={Week_6_example_3}/>
+            <Route path='/week/week_6/week_6_example_4' component={Week_6_example_4}/>
+            <Route path='/week/week_6/week_6_neriesene' component={Neriesene_6}/>
 
             <Route path='/week/week_7/intro_week_7' component={intro_week_7} />
             <Route path='/week/week_7/week_7_example-1' component={Week_7_1}/>

@@ -1,7 +1,7 @@
 import React from "react";
 import '../../Home.css';
 import '../../App.css';
-import Kontainerintro from "../../komponenty/Kontainer_intro";
+import Kontainerintro from "../../komponenty/Kontajner_intro";
 import prva_schema_4 from"../../images/week_4_img/prva_schema_4.png";
 import druha_schema_4 from"../../images/week_4_img/druha_schema_4.png";
 import tretia_schema_4 from"../../images/week_4_img/tretia_schema_4.png";
@@ -17,7 +17,7 @@ const intro_week_4 = () => {
             <div className="home">
                 <div className="nadpis-style">
                     <h1>Bipolarne tranzistory</h1>
-                    <h2>V tejto kapitole sa pozrieme na bipolárne tranzistory ich náhradné striedavé modely a výpočet striedavého zisku</h2>
+                    <h2>V tejto kapitole sa pozrieme na bipolárne tranzistory ich náhradné striedavé modely a výpočet striedavého zisku, návrh zosilňovačov</h2>
                 
                 </div>
             </div>
@@ -51,12 +51,16 @@ const intro_week_4 = () => {
             
                 </div>
                 
-            <h2 className="stred">Otestuj sa</h2>
+                <h2 className="stred">Neriešené príklady</h2>
                 <div className="tables">
-                
-                <Kontainerintro link="/quiz_4" text_link="QUIZ" text="Test"/>
-                    
+                    <Kontainerintro link="./week_4_neriesene" text_link="Neriešené príklady ku tejto kapitole" text="Neriešené príklady"/>    
+                </div>  
+
+                <h2 className="stred">Otestuj sa</h2>
+                <div className="tables">
+                    <Kontainerintro link="./quiz_4" text_link="QUIZ" text="Test"/>  
                 </div> 
+            
             </div>
         </div>
     );

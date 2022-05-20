@@ -40,7 +40,7 @@ const Home = () => {
         <div className="tables" data-aos="zoom-in-up">
             
             
-            <Kontainer link="/Testy" text="Všetky testy"   text_link="Testy"/>
+            <Kontainer link="/komponenty/Testy" text="Všetky testy"   text_link="Testy"/>
             
             <Kontainer link="/Docs" text_link="Prídavné materiály" text="Doplňujúce materiály"/>
                

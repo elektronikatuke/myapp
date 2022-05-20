@@ -1,7 +1,7 @@
 import React from "react";
 import '../../../App.css'
 
-function Prva_schema_2_stav() {
+const Prva_schema_2_stav = () => {
 
 
     function bez_prud(){

@@ -14,6 +14,8 @@ function Example_3_1(){
         else{
             document.getElementById('path3_1').setAttribute('class', 'none'); 
         }
+
+        
          
     }
 

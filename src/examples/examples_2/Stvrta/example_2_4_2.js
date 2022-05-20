@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../Week_example_2.css"
 
 

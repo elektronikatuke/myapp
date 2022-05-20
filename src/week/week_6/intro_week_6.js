@@ -1,7 +1,7 @@
 import React from "react";
 import '../../Home.css';
 import '../../App.css';
-import Kontainerintro from "../../komponenty/Kontainer_intro";
+import Kontainerintro from "../../komponenty/Kontajner_intro";
 
 const intro_week_6 = () => {
     return(
@@ -28,9 +28,9 @@ const intro_week_6 = () => {
                     
                     <Kontainerintro link="./week_6_example_1" text_link="Link" text="Prvý príklad"/>
 
-                    <Kontainerintro link="" text_link="" text="Druhý príklad"/>
+                    <Kontainerintro link="./week_6_example_2" text_link="Link_2" text="Druhý príklad"/>
                 
-                    <Kontainerintro link="" text_link="" text="Tretí príklad"/>
+                    <Kontainerintro link="./week_6_example_3" text_link="Link_3" text="Tretí príklad"/>
                         
                 </div>
                 
@@ -38,18 +38,23 @@ const intro_week_6 = () => {
                 
                 <div className="tables">
                     
-                    <Kontainerintro link="" text_link="" text="Prvá schéma"/>
+                    <Kontainerintro link="./week_6_example_4" text_link="Link_4" text="Prvý príklad"/>
                     
                     <Kontainerintro link="" text_link="" text="Druhá schéma"/>
             
                 </div>
-                
+
+            <h2 className="stred">Neriešené príklady</h2>
+                <div className="tables">
+                    <Kontainerintro link="./week_6_neriesene" text_link="Neriešené príklady - unipolárne tranzistory" text="Neriešené príklady"/>     
+                </div>
+
+             
             <h2 className="stred">Otestuj sa</h2>
                 <div className="tables">
-                
-                <Kontainerintro link="" text_link="QUIZ" text="Test"/>
-                    
-                </div> 
+                    <Kontainerintro link="" text_link="QUIZ" text="Test"/>     
+                </div>
+
             </div>
         </div>
     );

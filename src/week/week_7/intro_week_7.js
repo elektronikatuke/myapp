@@ -1,7 +1,7 @@
 import React from "react";
 import '../../Home.css';
 import '../../App.css';
-import Kontainerintro from "../../komponenty/Kontainer_intro";
+import Kontainerintro from "../../komponenty/Kontajner_intro";
 import orb_1 from "../../images/week_7_img/prva.png"
 import orb_2 from "../../images/week_7_img/druha.png"
 import orb_3 from "../../images/week_7_img/tretia.png"

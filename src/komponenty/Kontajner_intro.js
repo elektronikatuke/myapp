@@ -11,7 +11,6 @@ const Kontainerintro = ({link, text_link, text}) => {
             <div className="container_intro">
                 <Link to={link}> {text_link} </Link>
                 <p>{text}</p>
-            
             </div>
             
         </>

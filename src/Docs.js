@@ -40,12 +40,14 @@ function Docs() {
 
 {/*##############################################*/}
 
-
-
 {/* Do tejto časti sa pridávajú dokumenty pomocou FileViewer*/}
+
+
+
         <div id="Doc" className="content">    
               <FileViewer fileType="pdf" filePath="./PDF/Prednasky_1_diody.pdf" onError={onError} />   
         </div> 
+
 
 
 {/*##############################################*/}

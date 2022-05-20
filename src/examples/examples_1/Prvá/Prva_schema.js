@@ -1,6 +1,6 @@
 import React from "react";
 
-function Prva_schema() {
+const Prva_schema = () => {
     return<svg
         width="600"
         height="300"

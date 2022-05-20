@@ -2,7 +2,7 @@ import React from 'react';
 import '../../../App.css';
 
 
-function Prva_schema_skrat() {
+const Prva_schema_skrat = () => {
 
 
   function startanime() {

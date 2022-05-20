@@ -7,7 +7,7 @@ import schema_3 from '../../images/week_1_img/Piata_schema.png';
 import schema_6 from '../../images/week_1_img/Siesta_schema.png'
 
 import '../../App.css';
-import Kontainerintro from "../../komponenty/Kontainer_intro";
+import Kontainerintro from "../../komponenty/Kontajner_intro";
 
 
 

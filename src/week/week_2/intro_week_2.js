@@ -1,7 +1,7 @@
 import React from "react";
 import '../../Home.css';
 import '../../App.css';
-import Kontainerintro from "../../komponenty/Kontainer_intro";
+import Kontainerintro from "../../komponenty/Kontajner_intro";
 import zenerova_ex_1 from"../../images/week_2_img/zenerova_ex_1.png";
 import zenerova_ex_2 from"../../images/week_2_img/zenerova_ex_2.png";
 import zenerova_ex_3 from"../../images/week_2_img/zenerova_ex_3.png";
