@@ -45,7 +45,7 @@ const intro_week_3 = () => {
                     
                 <Kontainerintro link="week_3_example_3_4" text_link={<img src={example_4} alt="Schema1"></img>} text="Prvý príklad"/>
                     
-                <Kontainerintro link="" text_link={""} text="Druhá schéma"/>
+                <Kontainerintro link="week_3_example_5" text_link={"LINK"} text="Druhá schéma"/>
             
                 </div>
 

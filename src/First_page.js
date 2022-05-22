@@ -34,6 +34,7 @@ import Week_3_ex_3_1 from "./week/week_3/week_3_example_3_1";
 import Week_3_ex_3_2 from "./week/week_3/week_3_example_3_2";
 import Week_3_ex_3_3 from "./week/week_3/week_3_example_3_3";
 import Week_3_ex_3_4 from "./week/week_3/week_3_example_3_4";
+import Week_3_example_5 from "./week/week_3/week_3_example_5";
 import Neriesene_3 from "./week/week_3/week_3_neriesene";
 
 import intro_week_4 from "./week/week_4/intro_week_4";
@@ -99,6 +100,7 @@ const First_page = () =>{
             <Route path='/week/week_3/week_3_example_3_2' component={Week_3_ex_3_2}/>
             <Route path='/week/week_3/week_3_example_3_3' component={Week_3_ex_3_3}/>
             <Route path='/week/week_3/week_3_example_3_4' component={Week_3_ex_3_4}/>
+            <Route path='/week/week_3/week_3_example_5' component={Week_3_example_5}/>
             <Route path='/week/week_3/week_3_neriesene' component={Neriesene_3}/>
             
 
