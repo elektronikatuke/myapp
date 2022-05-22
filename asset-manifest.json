@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myapp/static/css/main.c87e154c.css",
-    "main.js": "/myapp/static/js/main.fde6f281.js",
+    "main.js": "/myapp/static/js/main.78f841d6.js",
     "static/js/787.28cb0dcd.chunk.js": "/myapp/static/js/787.28cb0dcd.chunk.js",
     "pdf.worker.js": "/myapp/e7e915313973ba1d49f9bb2a1998626e.js",
     "static/media/pozadie_obvody_1.png": "/myapp/static/media/pozadie_obvody_1.0caeab71bada0c4205fc.png",
@@ -12,17 +12,18 @@
     "static/media/Grafex1.svg": "/myapp/static/media/Grafex1.6fcc19570c576affffa05a100c9c3ac9.svg",
     "static/media/Graf_ex_2.svg": "/myapp/static/media/Graf_ex_2.376ace1b6fdc731926c1c407c1f14dcc.svg",
     "static/media/Grafex_6.svg": "/myapp/static/media/Grafex_6.bd50427631f20375db073ae38b2ecd9c.svg",
+    "static/media/schema_5.png": "/myapp/static/media/schema_5.ca502704773103dcd800.png",
     "static/media/tretia_schema_4.png": "/myapp/static/media/tretia_schema_4.03569c111095b551e76f.png",
     "static/media/piata.png": "/myapp/static/media/piata.a15056bbd17c798bac42.png",
     "static/media/prva_schema_4.png": "/myapp/static/media/prva_schema_4.3238a3776c19c97e3646.png",
     "static/media/example_1.png": "/myapp/static/media/example_1.3710788b0325eba2f8be.png",
     "index.html": "/myapp/index.html",
     "main.c87e154c.css.map": "/myapp/static/css/main.c87e154c.css.map",
-    "main.fde6f281.js.map": "/myapp/static/js/main.fde6f281.js.map",
+    "main.78f841d6.js.map": "/myapp/static/js/main.78f841d6.js.map",
     "787.28cb0dcd.chunk.js.map": "/myapp/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c87e154c.css",
-    "static/js/main.fde6f281.js"
+    "static/js/main.78f841d6.js"
   ]
 }
