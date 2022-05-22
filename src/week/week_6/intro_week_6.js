@@ -40,7 +40,7 @@ const intro_week_6 = () => {
                     
                     <Kontainerintro link="./week_6_example_4" text_link="Link_4" text="Prvý príklad"/>
                     
-                    <Kontainerintro link="" text_link="" text="Druhá schéma"/>
+                    <Kontainerintro link="./week_6_example_5" text_link="Link5" text="Druhá schéma"/>
             
                 </div>
 
