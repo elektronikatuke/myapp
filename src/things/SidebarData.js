@@ -47,13 +47,13 @@ export const SidebarData = [
   },
   {
     title: 'Testy',
-    path: '#',
+    path: '/komponenty/Testy',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },
   {
     title: 'Prídavné materiály',
-    path: '#',
+    path: '/Docs',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text'
   },

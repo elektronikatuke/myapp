@@ -6,6 +6,7 @@ import Footer from "./komponenty/Footer";
 import { HashRouter, Switch, Route } from 'react-router-dom';
 import Home from "./Home";
 import Docs from "./Docs";
+import Testy from "./komponenty/Testy";
 
 
 import intro_week_1 from "./week/week_1/intro_week_1";
@@ -72,6 +73,7 @@ const First_page = () =>{
             <Route exact path='/' component={Home}/>
            
             <Route path='/Docs' component={Docs}/>
+            <Route path='/komponenty/Testy' component={Testy}/>
             
             <Route path='/week/week_1/week_1_example-1' component={Example_1} />
             <Route path='/week/week_1/week_1_example-2' component={Example_2} />
