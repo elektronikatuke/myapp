@@ -24,7 +24,7 @@ const intro_week_7 = () => {
             <h2 className="stred">Teoretická časť</h2>
 
             <div className="tables">
-                <Kontainerintro link="./week_1_pdf" text_link="Prednaska" text="Prezentácia"/>
+                <Kontainerintro link="./week_7_pdf" text_link="Prednaska" text="Prezentácia"/>
             </div>
             
             
@@ -54,7 +54,7 @@ const intro_week_7 = () => {
         <h2 className="stred">Otestuj sa</h2>
             <div className="tables">
                
-               <Kontainerintro link="../week_7/quiz1" text_link="QUIZ" text="Test"/>
+               <Kontainerintro link="../week_7/quiz7" text_link="QUIZ" text="Test"/>
                 
             </div> 
         </div>

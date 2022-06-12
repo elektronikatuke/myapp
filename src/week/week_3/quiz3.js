@@ -3,7 +3,7 @@ import Quiz from '../../komponenty/Quiz';
 import questions from './questions';
 
 
-function Quiz4(){
+function Quiz3(){
 
 	return(
 		<>
@@ -12,4 +12,4 @@ function Quiz4(){
 	);
 }
 
-export default Quiz4;
+export default Quiz3;

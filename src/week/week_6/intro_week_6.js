@@ -57,7 +57,7 @@ const intro_week_6 = () => {
              
             <h2 className="stred">Otestuj sa</h2>
                 <div className="tables">
-                    <Kontainerintro link="" text_link="QUIZ" text="Test"/>     
+                    <Kontainerintro link="./quiz6" text_link="QUIZ" text="Test"/>     
                 </div>
 
             </div>

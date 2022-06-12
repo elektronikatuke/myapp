@@ -37,7 +37,7 @@ const Week_3_ex_3_2 = () => {
             <div className="flex_left" data-aos="fade-left">
                 <h2>Riešenie:</h2>
                 <p>Poloha pracovného bodu vo výstupných charakteristikách je daná priesečníkom zaťažovacej priamky a výstupnej charakteristiky pre daný prúd I<sub>B</sub>. Napätie naprázdno je U<sub>0</sub> = U<sub>CC</sub> = 5V a prúd nakrátko je I<sub>K</sub> = U<sub>0</sub> / R<sub>C</sub> = 5/500 = 10mA</p>
-                <p>Pre prípad I<sub>B</sub> = 0 µA dostávame pracovný bod <b>P<sub>1</sub> = [U<sub>CE</sub> = 5V, I<sub>C</sub> = 0 mA], kroeý zodpovedá nevodivému režimu.</b></p>
+                <p>Pre prípad I<sub>B</sub> = 0 µA dostávame pracovný bod <b>P<sub>1</sub> = [U<sub>CE</sub> = 5V, I<sub>C</sub> = 0 mA], ktorý zodpovedá nevodivému režimu.</b></p>
                 <p>Pre prípad I<sub>B</sub> = 30 µA odpočítame súradnice pracovného bodu <b>P<sub>2</sub> = [ U<sub>CE</sub> = 2,25 V, I<sub>C</sub> = 5,5 mA]</b>, ktorý zodpovedá normálnemu aktívnemu režimu.</p>
                 {Example_3_2_2()}
             </div>

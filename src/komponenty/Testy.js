@@ -24,9 +24,9 @@ const Testy = () => {
 
                     <Kontainerintro link="../week/week_4/quiz4" text_link="Test kapitola 4." text="Kapitola 4."/>
 
-                    <Kontainerintro link="../week/week_6/quiz5" text_link="Test kapitola 5." text="Kapitola 5."/>
+                    <Kontainerintro link="../week/week_6/quiz6" text_link="Test kapitola 5." text="Kapitola 5."/>
 
-                    <Kontainerintro link="../week/week_7/quiz6" text_link="Test kapitola 6." text="Kapitola 6."/>
+                    <Kontainerintro link="../week/week_7/quiz7" text_link="Test kapitola 6." text="Kapitola 6."/>
 
                     
                         

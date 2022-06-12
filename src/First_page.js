@@ -17,15 +17,17 @@ import Example_3 from "./week/week_1/week_1_example-3";
 import Example_5 from "./week/week_1/week_1_example-5";
 import Neriesene_1 from "./week/week_1/week_1_neriesene_1";
 import Quiz1 from "./week/week_1/quiz1";
+import Week1pdf from "./week/week_1/week_1_pdf";
 
 import intro_week_2 from "./week/week_2/intro_week_2";
 import Week_2_example_1 from "./week/week_2/week_2_example_1";
-import Week1pdf from "./week/week_1/week_1_pdf";
 import Week_2_example_2 from "./week/week_2/week_2_example_2";
 import Week_2_example_3 from "./week/week_2/week_2_example_3";
 import Week_2_example_4 from "./week/week_2/week_2_example_4";
 import Week_2_example_5 from "./week/week_2/week_2_example_5";
+import Quiz2 from "./week/week_2/quiz2";
 import Neriesene_2_1 from "./week/week_2/week_2_neriesene_1";
+import Week2pdf from "./week/week_2/week_2_pdf";
 
 
 import Week3pdf from "./week/week_3/week_3_pdf";
@@ -35,6 +37,7 @@ import Week_3_ex_3_2 from "./week/week_3/week_3_example_3_2";
 import Week_3_ex_3_3 from "./week/week_3/week_3_example_3_3";
 import Week_3_ex_3_4 from "./week/week_3/week_3_example_3_4";
 import Week_3_example_5 from "./week/week_3/week_3_example_5";
+import Quiz3 from "./week/week_3/quiz3";
 import Neriesene_3 from "./week/week_3/week_3_neriesene";
 
 import intro_week_4 from "./week/week_4/intro_week_4";
@@ -44,6 +47,7 @@ import Week_4_example_2 from "./week/week_4/week_4_example_2";
 import Week_4_example_3 from "./week/week_4/week_4_example_3";
 import Week_4_example_4 from "./week/week_4/week_4_example_4";
 import Week_4_example_5 from "./week/week_4/week_4_example_5";
+import Quiz4 from "./week/week_4/quiz_4";
 import Neriesene_4 from "./week/week_4/week_4_neriesene";
 
 import intro_week_6 from "./week/week_6/intro_week_6";
@@ -53,6 +57,7 @@ import Week_6_example_2 from "./week/week_6/week_6_example_2";
 import Week_6_example_3 from "./week/week_6/week_6_example_3";
 import Week_6_example_4 from "./week/week_6/week_6_example_4";
 import Week_6_example_5 from "./week/week_6/week_6_example_5";
+import Quiz6 from "./week/week_6/quiz6";
 import Neriesene_6 from "./week/week_6/week_6_neriesene";
 
 import intro_week_7 from "./week/week_7/intro_week_7";
@@ -61,6 +66,8 @@ import Week_7_2 from "./week/week_7/week_7_example-2";
 import Week_7_3 from "./week/week_7/week_7_example-3";
 import Week_7_4 from "./week/week_7/week_7_example-4";
 import Week_7_5 from "./week/week_7/week_7_example-5";
+import Week7pdf from "./week/week_7/week_7_pdf";
+import Quiz7 from "./week/week_7/quiz7";
 
 
 const First_page = () =>{
@@ -92,7 +99,9 @@ const First_page = () =>{
             <Route path='/week/week_2/week_2_example_3' component={Week_2_example_3}/>
             <Route path='/week/week_2/week_2_example_4' component={Week_2_example_4}/>
             <Route path='/week/week_2/week_2_example_5' component={Week_2_example_5}/>
+            <Route path='/week/week_2/quiz2' component={Quiz2}/>
             <Route path='/week/week_2/week_2_neriesene_1' component={Neriesene_2_1}/>
+            <Route path='/week/week_2/week_2_pdf' component={Week2pdf}/>
 
             <Route path='/week/week_3/intro_week_3' component={intro_week_3} />
             <Route path='/week/week_3/week_3_pdf' component={Week3pdf}/>
@@ -101,6 +110,7 @@ const First_page = () =>{
             <Route path='/week/week_3/week_3_example_3_3' component={Week_3_ex_3_3}/>
             <Route path='/week/week_3/week_3_example_3_4' component={Week_3_ex_3_4}/>
             <Route path='/week/week_3/week_3_example_5' component={Week_3_example_5}/>
+            <Route path='/week/week_3/quiz3' component={Quiz3}/>
             <Route path='/week/week_3/week_3_neriesene' component={Neriesene_3}/>
             
 
@@ -111,6 +121,7 @@ const First_page = () =>{
             <Route path='/week/week_4/week_4_example_3' component={Week_4_example_3}/>
             <Route path='/week/week_4/week_4_example_4' component={Week_4_example_4}/>
             <Route path='/week/week_4/week_4_example_5' component={Week_4_example_5}/>
+            <Route path='/week/week_4/quiz4' component={Quiz4}/>
             <Route path='/week/week_4/week_4_neriesene' component={Neriesene_4}/>
 
             <Route path='/week/week_6/intro_week_6' component={intro_week_6} />
@@ -120,6 +131,7 @@ const First_page = () =>{
             <Route path='/week/week_6/week_6_example_3' component={Week_6_example_3}/>
             <Route path='/week/week_6/week_6_example_4' component={Week_6_example_4}/>
             <Route path='/week/week_6/week_6_example_5' component={Week_6_example_5}/>
+            <Route path='/week/week_6/quiz6' component={Quiz6}/>
             <Route path='/week/week_6/week_6_neriesene' component={Neriesene_6}/>
 
             <Route path='/week/week_7/intro_week_7' component={intro_week_7} />
@@ -128,6 +140,8 @@ const First_page = () =>{
             <Route path='/week/week_7/week_7_example-3' component={Week_7_3}/>
             <Route path='/week/week_7/week_7_example-4' component={Week_7_4}/>
             <Route path='/week/week_7/week_7_example-5' component={Week_7_5}/>
+            <Route path='/week/week_7/quiz7' component={Quiz7}/>
+            <Route path='/week/week_7/week_7_pdf' component={Week7pdf} />
 
 
           </Switch>
